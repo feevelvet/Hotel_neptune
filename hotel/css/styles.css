@@ -1,0 +1,157 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+}
+
+header {
+    color: #fff; /* Blanc */
+    background-color: #000; /* Noir */
+    
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.room-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #000;
+    color: #fff; /* Blanc */
+    align-items: center;
+    justify-content: center;
+}
+
+.room {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+    color: #fff; /* Blanc */
+    height: 450px;
+    
+}
+
+.room img {
+    width: 100%;
+    border-radius: 5px;
+    height: 180px;
+}
+
+footer {
+    height: 30px;
+    background-color: #000; /* Noir */
+    color: #fff; /* Blanc */
+    text-align: center;
+    
+
+    bottom: 0;
+    width: 100%;
+}
+
+#login-form {
+    display: none;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.header-buttons {
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    right: -150px;
+
+
+}
+
+.header-buttons img {
+
+    width: 10px; 
+    margin-left: 10px;
+    cursor: pointer; 
+}
+
+.logo {
+    position: absolute;
+    top: -50px;
+    left: -30px;
+    max-width: 250px;
+    height: auto;
+}
+
+.carousel {
+    margin-top: 5%;
+}
+
+.main-title {
+    color: #fff; /* Blanc */
+    text-align: center;
+    margin: 50px 0;
+}
+
+.main-title h1 {
+    font-size: 2em;
+}
+
+.lang-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffd700; /* Doré */
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+}
+
+.lang-link:hover {
+    background-color: #ffcc00; /* Doré plus foncé au survol */
+    border: 1px solid #ffcc00;
+}
+.show-all-btn {
+
+    max-height: 50px;
+    margin: 20px auto; 
+    padding: 10px;
+    background-color: white; /* Doré */
+    color: #000; /* Noir */
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    }
+
+.show-all-btn:hover {
+    
+    border: 1px solid #ffcc00;
+}
+form {
+    background-color: black;
+    color: #fff;
+    max-width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+

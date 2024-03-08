@@ -1,0 +1,114 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+
+.invoice {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+
+}
+
+.reservation-details {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto; /* Ajustez le top margin si nécessaire */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.reservation-details h2 {
+    font-size: 20px;
+}
+
+.reservation-details p {
+    margin: 10px 0;
+}
+.room-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+.room h1{
+    
+    text-align: center;
+}
+.room {
+    margin-top: 130px;
+    background-color: #ffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.room img {
+    width: 100%;
+    border-radius: 5px;
+    height: 680px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    max-width: 250px;
+    height: auto;
+}
+
+.header-buttons {
+    
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: -150px;
+
+
+}
+
+.header-buttons img {
+
+    width: 10px; 
+    margin-left: 10px;
+    cursor: pointer; 
+}
+footer {
+    height: 35px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+.acceuil {
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  padding: 10px 20px; /* Ajustez les valeurs de padding selon vos besoins */
+  font-size: 16px; /* Ajustez la taille de la police selon vos besoins */
+  
+  color: #FFFFFF;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
