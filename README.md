@@ -1,14 +1,18 @@
 ### 
 hello !
+
 for the data base here is the sql code :
+
 -- create the database hotel :
 
 CREATE DATABASE IF NOT EXISTS hotel;
 
 -- Use the database hotel
+
 USE hotel;
 
 -- Create the table Chambres 
+
 CREATE TABLE IF NOT EXISTS Chambres (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Personne INT,
@@ -21,6 +25,7 @@ CREATE TABLE IF NOT EXISTS Chambres (
 );
 
 -- Create the table Reservations
+
 CREATE TABLE IF NOT EXISTS Reservations (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     chambre_id INT,
@@ -32,6 +37,7 @@ CREATE TABLE IF NOT EXISTS Reservations (
 );
 
 -- Create the table Users
+
 CREATE TABLE IF NOT EXISTS Users (
     Id INT AUTO_INCREMENT PRIMARY KEY,
     Email VARCHAR(255),
