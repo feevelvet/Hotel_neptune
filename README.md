@@ -2,6 +2,7 @@
 hello !
 for the data base here is the sql code :
 -- create the database hotel :
+
 CREATE DATABASE IF NOT EXISTS hotel;
 
 -- Use the database hotel
